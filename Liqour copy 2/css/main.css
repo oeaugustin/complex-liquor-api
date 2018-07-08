@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+
+}
+.clearfix:after {
+     content: "."; 
+     display: block; 
+     height: 0; 
+     clear: both; 
+     visibility: hidden;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/1005642/pexels-photo-1005642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.blueGlass{
+  background: rgba(5,55,255,.4);
+  width: 100%;
+  min-height: 112vh;
+  margin-top: -2vh;
+  padding-top: 2vh;
+}
+.container{
+  background: rgba(255,255,255,.9);
+  width: 70%;
+  min-height: 45vh;
+  margin-left: 15%;
+  float: left;
+  margin-top: 2vh;
+}
+h1{
+  text-align: center;
+  font-size: 2rem;
+  color: darkslategrey;
+  font-family: 'IM Fell English SC', serif;
+}
+input{
+  width: 50%;
+  height: 5vh;
+  color: darkslategrey;
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid darkslategrey;
+  font-size: 1rem;
+  margin-left: 15%;
+  font-family: 'Arvo', serif;
+}
+h2{
+  font-size: 1.2rem;
+  margin top: 2vh;
+  color: darkslategrey;
+  font-family: 'IM Fell English SC', serif;
+  width: 70%;
+  margin-left: 15%;
+  text-transform: uppercase;
+}
+p{
+  color: darkblue;
+  font-size: .9em;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  font-family: 'Arvo', serif;
+}
+ul{
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: 
+}
+ul li{
+  font-size: 1.5rem;
+  list-style: none;
+  padding-top: .8vh;
+  color: darkblue;
+}
+button{
+  width: 20%;
+  height: 5vh;
+  font-size: 1rem;
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color: darkslategrey;
+}
